@@ -6,7 +6,7 @@ sources:
     description: Raw data productos, ventas y shipments
     tables:
       - name: product
-        identifier: raw_gz_producT
+        identifier: raw_gz_product
         description: Raw data productos
       - name: sales
         identifier: raw_gz_sales
