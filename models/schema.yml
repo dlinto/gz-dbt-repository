@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw_data
+    schema: gz_raw_data
+    description: Raw data productos, ventas y shipments
+    tables:
+      - name: product
+        identifier: raw_gz_product
+        description: Raw data productos
+      - name: sales
+        identifier: raw_gz_sales
+        description: Raw data ventas
+      - name: ship
+        identifier: raw_gz_ship
+        description: Raw data shipments
